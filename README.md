@@ -8,3 +8,7 @@ The [add-members-to-M365group](add-members-to-M365group.ps1) will help engineers
 2. Uses the [Connect-ExchangeOnline](https://learn.microsoft.com/en-us/powershell/module/exchange/connect-exchangeonline?view=exchange-ps) method to connect to your EAC
 3. Uses the [Import-Csv](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/import-csv?view=powershell-7.4) cmdlet to import a CSV file that contains the UPN or email address of the members.
 4. Then, use the For Loop to review the CSV file and add each member.
+
+# Important
+>[!important]
+>Please change the values of these variable to match your environment: $logFilePath, $csvPath, $members, and $group.
